@@ -12,11 +12,11 @@ class UserService {
     public userSchema = UserSchema;
 
     public async createUser(model: RegisterDto): Promise<TokenData>{
-        isEmptyObject(model){
-            throw new HttpException(400,'Model is empty');
+        if(isEmptyObject(model)){
+            throw new HttpException(400,`Model is empty`);
         }
 
-        const user = this.userSchema.findOne({email: model.email });
+        const user = await this.userSchema.findOne({ email: model.email });
         if(user) 
         {
             throw new HttpException(409, `your email ${model.email} already exist. `); 
@@ -30,7 +30,7 @@ class UserService {
 
         const salt = await bcryptjs.genSalt(10);
 
-        const hashedPassword = await bcryptjs.hash(model.password!, salt);
+        const hashedPassword = await bcryptjs.hash(model.password, salt);
         const createdUser = await this.userSchema.create({
             ...model,
             password: hashedPassword,
@@ -42,9 +42,9 @@ class UserService {
     private createToken(user: IUser): TokenData{
         const dataInToken: DataStoreInToken = {id: user._id};
         const secret: string = process.env.JWT_TOKEN_SECRET!;
-        const expiresIn: number = 3600;
+        const expiresIn: number = 60;
         return {
-            token: jwt.sign(dataInToken,secret,{expiresIn:expiresIn})
+            token: jwt.sign(dataInToken,secret,{expiresIn:expiresIn}),
         }
 
     }

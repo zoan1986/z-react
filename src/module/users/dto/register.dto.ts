@@ -1,5 +1,6 @@
 export default class RegisterDto {
-    constructor(first_name:string, las_name:string,email:string,password:string){
+    constructor(first_name:string, las_name:string, email:string, password:string)
+    {
         this.first_name = first_name;
         this.last_name = las_name;
         this.email = email;
@@ -8,5 +9,5 @@ export default class RegisterDto {
     public first_name: string;
     public last_name: string;
     public email: string;
-    public password: String;
+    public password: string;
 }

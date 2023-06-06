@@ -19,9 +19,9 @@ class App{
         this.port = process.env.PORT || 6000;
         this.production = process.env.NODE_ENV =='production' ?true : false;
 
-        this.initializeRoutes(routes);
         this.connectToDatabase();
         this.initializeMiddleware();
+        this.initializeRoutes(routes); 
     }
 
     public listen(){
@@ -48,7 +48,10 @@ class App{
             this.app.use(morgan('dev'));
             this.app.use(cors({origin: true, credentials: true }));
         }
-        this.app.use(errorMiddleware)
+        this.app.use(express.json());
+        this.app.use(express.urlencoded({extended:true}));
+        this.app.use(errorMiddleware);
+
     }
 
     private connectToDatabase(){ 
@@ -60,7 +63,7 @@ class App{
             mongoose.connect(connectString).catch((reason)=>{
                 Logger.error(reason)
             });
-            Logger.info('DB connected')
+            Logger.info('DB connected');
     }
 
 }
