@@ -240,3 +240,68 @@
 [32minfo[39m: [32mDB connected[39m
 [32minfo[39m: [32mServer is listening on port 6000[39m
 [31merror[39m: [31m[ERROR] - status: 409 - Msg: your email doanhoangphuong@gmail.com already exist. [39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31mqueryTxt ESERVFAIL master.vntghuv.mongodb.net[39m {"code":"ESERVFAIL","hostname":"master.vntghuv.mongodb.net","syscall":"queryTxt"}
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected token [39m
+[31m in JSON at position 89[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected token [39m
+[31m in JSON at position 89[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: you must using the difference email[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: your email has been by another user[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m

@@ -41,42 +41,54 @@ class UserService {
     return this.createToken(createdUser);
   }
 
-  public async updateUser(userID: string, model: RegisterDto): Promise<IUser> {
+  public async updateUser(userId: string, model: RegisterDto): Promise<IUser> {
     if (isEmptyObject(model)) {
       throw new HttpException(400, "Model is empty");
     }
 
-    const user = await this.userSchema.findById(userID).exec();
+    const user = await this.userSchema.findById(userId).exec();
     if (!user) {
       throw new HttpException(400, `userID is not exists`);
     }
     let avatar = user.avatar;
     if (user.email === model.email) {
       throw new HttpException(400, "you must using the difference email");
-    } else {
-      avatar = gravatar.url(model.email!, {
-        size: "200",
-        rating: "g",
-        default: "mm",
-      });
     }
+    const checkEmailExist = await this.userSchema
+      .find({
+        $and: [{ email: { $eq: model.email } }, { id: { $ne: userId } }],
+      })
+      .exec();
+
+    if (checkEmailExist.length != 0) {
+      throw new HttpException(400, `your email has been by another user`);
+    }
+
     let updateUserById;
     if (model.password) {
       const salt = await bcryptjs.genSalt(10);
       const hashedPassword = await bcryptjs.hash(model.password, salt);
       updateUserById = await this.userSchema
-        .findByIdAndUpdate(userID, {
-          ...model,
-          avatar: avatar,
-          password: hashedPassword,
-        })
+        .findByIdAndUpdate(
+          userId,
+          {
+            ...model,
+            avatar: avatar,
+            password: hashedPassword,
+          },
+          { new: true }
+        )
         .exec();
     } else {
       updateUserById = await this.userSchema
-        .findByIdAndUpdate(userID, {
-          ...model,
-          avatar: avatar,
-        })
+        .findByIdAndUpdate(
+          userId,
+          {
+            ...model,
+            avatar: avatar,
+          },
+          { new: true }
+        )
         .exec();
     }
 
