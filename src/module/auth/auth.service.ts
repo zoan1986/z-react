@@ -37,10 +37,20 @@ class AuthService {
       throw new HttpException(400, "credential is not valid");
     return this.createToken(user);
   }
+
+  public async getCurrentLoginUser(userID: string): Promise<IUser> {
+    const user = await this.userSchema.findById(userID);
+    if (!user) {
+      throw new HttpException(404, `User is not exists`);
+    }
+
+    return user;
+  }
+
   private createToken(user: IUser): TokenData {
     const dataInToken: DataStoredInToken = { id: user._id };
     const secret: string = process.env.JWT_TOKEN_SECRET!;
-    const expiresIn: number = 60;
+    const expiresIn: number = 3660;
     return {
       token: jwt.sign(dataInToken, secret, { expiresIn: expiresIn }),
     };
