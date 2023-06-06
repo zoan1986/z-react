@@ -17,7 +17,7 @@ class UserService {
       throw new HttpException(400, "Model is empty");
     }
 
-    const user = await this.userSchema.findOne({ email: model.email });
+    const user = await this.userSchema.findOne({ email: model.email }).exec();
     if (user) {
       throw new HttpException(409, `Your email ${model.email} already exist.`);
     }
@@ -38,6 +38,58 @@ class UserService {
       date: Date.now(),
     });
     return this.createToken(createdUser);
+  }
+
+  public async updateUser(userID: string, model: RegisterDto): Promise<IUser> {
+    if (isEmptyObject(model)) {
+      throw new HttpException(400, "Model is empty");
+    }
+
+    const user = await this.userSchema.findById(userID).exec();
+    if (!user) {
+      throw new HttpException(400, `userID is not exists`);
+    }
+    let avatar = user.avatar;
+    if (user.email === model.email) {
+      throw new HttpException(400, "you must using the difference email");
+    } else {
+      avatar = gravatar.url(model.email!, {
+        size: "200",
+        rating: "g",
+        default: "mm",
+      });
+    }
+    let updateUserById;
+    if (model.password) {
+      const salt = await bcryptjs.genSalt(10);
+      const hashedPassword = await bcryptjs.hash(model.password, salt);
+      updateUserById = await this.userSchema
+        .findByIdAndUpdate(userID, {
+          ...model,
+          avatar: avatar,
+          password: hashedPassword,
+        })
+        .exec();
+    } else {
+      updateUserById = await this.userSchema
+        .findByIdAndUpdate(userID, {
+          ...model,
+          avatar: avatar,
+        })
+        .exec();
+    }
+
+    if (!updateUserById) throw new HttpException(409, "you are not an user");
+
+    return updateUserById;
+  }
+
+  public async getUserById(userId: string): Promise<IUser> {
+    const user = await this.userSchema.findById(userId).exec();
+    if (!user) {
+      throw new HttpException(404, `User is not exists`);
+    }
+    return user;
   }
 
   private createToken(user: IUser): TokenData {
