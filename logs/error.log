@@ -2,3 +2,6 @@
 [31merror[39m: [31m[ERROR] - status: 500 - Msg: Cannot convert undefined or null to object[39m
 [31merror[39m: [31m[ERROR] - status: 500 - Msg: Cannot convert undefined or null to object[39m
 [31merror[39m: [31m[ERROR] - status: 500 - Msg: Cannot convert undefined or null to object[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: first_name should not be empty[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: first_name should not be empty, last_name should not be empty[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: credential is not valid[39m
