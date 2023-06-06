@@ -43,7 +43,6 @@ class AuthService {
     if (!user) {
       throw new HttpException(404, `User is not exists`);
     }
-
     return user;
   }
 

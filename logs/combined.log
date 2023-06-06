@@ -154,3 +154,71 @@
 [32minfo[39m: [32mServer is listening on port 6000[39m
 [31merror[39m: [31m[ERROR] - status: 400 - Msg: you must using the difference email[39m
 [31merror[39m: [31m[ERROR] - status: 400 - Msg: you must using the difference email[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 409 - Msg: Your email doanfasdfahoanng@gmail.com already exist.[39m
+[31merror[39m: [31m[ERROR] - status: 409 - Msg: Your email doanfasdfahoanng@gmail.com already exist.[39m
+[31merror[39m: [31m[ERROR] - status: 409 - Msg: Your email doanfasdfahoanng@gmail.com already exist.[39m
+[31merror[39m: [31m[ERROR] - status: 409 - Msg: Your email doanfasdfahoanng@gmail.com already exist.[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: BSON field 'skip' value must be >= 0, actual value '-9'[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: BSON field 'skip' value must be >= 0, actual value '-9'[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.estimatedDocumentCount()[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: Query was already executed: user.countDocuments({})[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
