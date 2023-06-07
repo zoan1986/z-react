@@ -7,8 +7,8 @@ export interface IProfile {
   status: string;
   skill: string[];
   bio: string;
-  experience: IExperience;
-  education: IEducation;
+  experience: IExperience[];
+  education: IEducation[];
   social: ISocial;
   date: Date;
 }
@@ -35,10 +35,9 @@ export interface IEducation {
   description: string;
 }
 
-export interface ISocial {
+export interface ISocial extends Record<string, string> {
   youtube: string;
   twitter: string;
-  facebook: string;
-  instagram: string;
   linkedin: string;
+  facebook: string;
 }

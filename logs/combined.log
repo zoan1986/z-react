@@ -305,3 +305,131 @@
 [32minfo[39m: [32mServer is listening on port 6000[39m
 [32minfo[39m: [32mDB connected[39m
 [32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected token c in JSON at position 6[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected token c in JSON at position 6[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected token c in JSON at position 6[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected string in JSON at position 120[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected string in JSON at position 120[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected string in JSON at position 120[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected string in JSON at position 120[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[32minfo[39m: [32mDB connected[39m
+[32minfo[39m: [32mServer is listening on port 6000[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: there is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: there is no profile for this user[39m
