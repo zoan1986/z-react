@@ -3,7 +3,7 @@ import ProfileService from "./profile.service";
 import { IUser } from "@module/auth";
 import CreateProfileDto from "./dto/create_profile.dto";
 import { IProfile } from "./profile.interface";
-import AddExperienceDto from "./dto/add_experiece.dto";
+import AddExperienceDto from "./dto/add_experience.dto";
 
 class ProfileController {
   private profileService = new ProfileService();

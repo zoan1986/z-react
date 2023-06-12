@@ -25,14 +25,33 @@ export default class CreateProfileDto {
     this.facebook = facebook;
   }
 
+  @IsNotEmpty()
   public company: string;
+
+  @IsNotEmpty()
   public location: string;
+
+  @IsNotEmpty()
   public website: string;
+
+  @IsNotEmpty()
   public bio: string;
+
+  @IsNotEmpty()
   public skills: string;
+
+  @IsNotEmpty()
   public status: string;
+
+  @IsNotEmpty()
   public youtube: string;
+
+  @IsNotEmpty()
   public twitter: string;
+
+  @IsNotEmpty()
   public linkedin: string;
+
+  @IsNotEmpty()
   public facebook: string;
 }

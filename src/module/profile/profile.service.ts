@@ -3,7 +3,7 @@ import { IUser, UserSchema } from "@module/users";
 import CreateProfileDto from "./dto/create_profile.dto";
 import { HttpException } from "@core/exceptions";
 import ProfileSchema from "./profile.model";
-import AddExperienceDto from "./dto/add_experiece.dto";
+import AddExperienceDto from "./dto/add_experience.dto";
 import { http, profile } from "winston";
 //import normalizeUrl from "normalize-url";
 

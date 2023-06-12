@@ -1,9 +1,10 @@
-import { authMiddleware, validationMiddleware } from "@core/middleware";
+import validationMiddleware from "@core/middleware/validation.middleware";
+import { authMiddleware } from "@core/middleware";
 import CreateProfileDto from "./dto/create_profile.dto";
 import ProfileController from "./profile.controller";
 import { Route } from "@core/interfaces";
 import { Router } from "express";
-import AddExperienceDto from "./dto/add_experiece.dto";
+import AddExperienceDto from "./dto/add_experience.dto";
 
 class ProfileRoute implements Route {
   public path = "/api/v1/profile";
@@ -28,7 +29,7 @@ class ProfileRoute implements Route {
     this.router.post(
       `${this.path}`,
       authMiddleware,
-      validationMiddleware(CreateProfileDto),
+      validationMiddleware(CreateProfileDto, true),
       this.profileController.createProfile
     );
     this.router.delete(
@@ -39,7 +40,7 @@ class ProfileRoute implements Route {
     this.router.put(
       `${this.path}/exp`,
       authMiddleware,
-      //validationMiddleware(AddExperienceDto),
+      validationMiddleware(AddExperienceDto, true),
       this.profileController.createExperience
     );
     this.router.delete(
