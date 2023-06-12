@@ -77,3 +77,21 @@
 [31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
 [31merror[39m: [31m[ERROR] - status: 400 - Msg: there is no profile for this user[39m
 [31merror[39m: [31m[ERROR] - status: 400 - Msg: there is no profile for this user[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected token } in JSON at position 181[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: you must using the difference email[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
+[31merror[39m: [31m[ERROR] - status: 500 - Msg: profile validation failed: Status: Path `Status` is required.[39m

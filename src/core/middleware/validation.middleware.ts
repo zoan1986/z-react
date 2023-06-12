@@ -1,8 +1,9 @@
+import { NextFunction, Request, RequestHandler, Response } from "express";
+import { ValidationError, validate } from "class-validator";
+
 import { HttpException } from "@core/exceptions";
 import { Logger } from "@core/utils";
 import { plainToClass } from "class-transformer";
-import { validate, ValidationError } from "class-validator";
-import { Request, Response, NextFunction, RequestHandler } from "express";
 
 const validationMiddleware = (
   type: any,
@@ -12,12 +13,12 @@ const validationMiddleware = (
     validate(plainToClass(type, req.body), { skipMissingProperties }).then(
       (errors: ValidationError[]) => {
         if (errors.length > 0) {
-          const message = errors
+          const messages = errors
             .map((error: ValidationError) => {
               return Object.values(error.constraints!);
             })
             .join(", ");
-          next(new HttpException(400, message));
+          next(new HttpException(400, messages));
         } else {
           next();
         }
