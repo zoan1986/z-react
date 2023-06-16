@@ -13,11 +13,13 @@ const PostSchema = new mongoose.Schema({
   avatar: {
     type: String,
   },
-  like: {
-    user: {
-      type: mongoose.Schema.Types.ObjectId,
+  likes: [
+    {
+      user: {
+        type: mongoose.Schema.Types.ObjectId,
+      },
     },
-  },
+  ],
   comment: [
     {
       user: {
