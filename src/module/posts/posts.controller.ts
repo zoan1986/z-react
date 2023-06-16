@@ -80,4 +80,19 @@ export default class PostController {
       next(error);
     }
   };
+
+  public deletePost = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const postId = req.params.id;
+
+      const post = await this.postService.deletePost(req.user.id, postId);
+      res.status(201).json(post);
+    } catch (error) {
+      next(error);
+    }
+  };
 }
