@@ -104,3 +104,5 @@
 [31merror[39m: [31m[ERROR] - status: 500 - Msg: profile validation failed: Status: Path `Status` is required.[39m
 [31merror[39m: [31m[ERROR] - status: 400 - Msg: an unknown value was passed to the validate function[39m
 [31merror[39m: [31m[ERROR] - status: 400 - Msg: Unexpected token } in JSON at position 36[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: post already liked[39m
+[31merror[39m: [31m[ERROR] - status: 400 - Msg: post has not yet been liked[39m

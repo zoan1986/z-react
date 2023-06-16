@@ -30,7 +30,7 @@ export default class PostController {
       const model: CreatePostDto = req.body;
       const postId = req.params.id;
       const result = await this.postService.updatePost(postId, model);
-      res.status(201).json(result);
+      res.status(200).json(result);
     } catch (error) {
       next(error);
     }
@@ -75,7 +75,7 @@ export default class PostController {
         keyword.toString(),
         page
       );
-      res.status(201).json(paginationResult);
+      res.status(200).json(paginationResult);
     } catch (error) {
       next(error);
     }
@@ -90,7 +90,33 @@ export default class PostController {
       const postId = req.params.id;
 
       const post = await this.postService.deletePost(req.user.id, postId);
-      res.status(201).json(post);
+      res.status(200).json(post);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public likePost = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const postId = req.params.id;
+
+      const like = await this.postService.likePost(req.user.id, postId);
+      res.status(200).json(like);
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public unlikePost = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const postId = req.params.id;
+
+      const like = await this.postService.unlikePost(req.user.id, postId);
+      res.status(200).json(like);
     } catch (error) {
       next(error);
     }
